@@ -23,7 +23,6 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <!-- endregion -->
         <com.google.guava.version>28.1-jre</com.google.guava.version>
-
         <maven-assembly-plugin.version>3.1.1</maven-assembly-plugin.version>
     </properties>
 
