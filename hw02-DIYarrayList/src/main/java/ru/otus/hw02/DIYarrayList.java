@@ -7,7 +7,6 @@ public class DIYarrayList <T> implements List<T> {
     private final int INIT_SIZE = 8;
     private Object[] array = new Object[INIT_SIZE];
     private int size;
-    protected int modCount = 0;
 
     public DIYarrayList(int initialCapacity) {
         if (initialCapacity >= 0) {
@@ -119,10 +118,10 @@ public class DIYarrayList <T> implements List<T> {
 
     @Override
     public T get(int index) {
-        if ( 0 <= index && index < size)
-            return (T) array[index];
-        else
-            throw new IndexOutOfBoundsException();
+        if ( index < 0 || index > size)
+            throw new IndexOutOfBoundsException(index);
+
+        return (T) array[index];
     }
 
     @Override
