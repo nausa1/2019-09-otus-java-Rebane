@@ -12,6 +12,7 @@
     <modules>
         <module>hw01-maven</module>
         <module>hw02-DIYarrayList</module>
+        <module>hw03-GC</module>
     </modules>
 
     <properties>
