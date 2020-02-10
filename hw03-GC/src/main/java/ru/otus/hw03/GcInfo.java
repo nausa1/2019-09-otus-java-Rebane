@@ -19,7 +19,7 @@ public class GcInfo {
     }
 
     public void incrementYoung_count() {
-        this.young_count++;
+        this.young_count++; 
     }
 
     public long getOld_duration() {
