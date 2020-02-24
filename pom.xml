@@ -13,6 +13,7 @@
         <module>hw01-maven</module>
         <module>hw02-DIYarrayList</module>
         <module>hw03-GC</module>
+        <module>hw04-byteCodes-ASM</module>
     </modules>
 
     <properties>
